@@ -8,8 +8,8 @@ This Power BI dashboard provides insights into retail sales performance, profita
 
 ## Dashboard Preview
 
-(Add Dashboard Screenshot Here)
-https://github.com/kapilkumarcareer1-ux/Retail-Sales-Analytics-Dashboard/edit/main/README.md
+![Retail Sales Analytics Dashboard](Dashboard%20Screenshot.png)
+
 ---
 
 ## Key KPIs
@@ -47,9 +47,11 @@ https://github.com/kapilkumarcareer1-ux/Retail-Sales-Analytics-Dashboard/edit/ma
 ## DAX Measures Used
 
 ```DAX
-Total Sales = SUM(Orders[Sales])
+Total Sales =
+SUM(Orders[Sales])
 
-Total Profit = SUM(Orders[Profit])
+Total Profit =
+SUM(Orders[Profit])
 
 Profit Margin % =
 DIVIDE([Total Profit],[Total Sales],0)
@@ -118,10 +120,20 @@ DIVIDE(SUM(Orders[Returns]),[Total Sales],0)
 
 ## Author
 
-Kapil Kumar
+### Kapil Kumar
 
 Aspiring Data Analyst
 
-GitHub: Add Your GitHub Profile Link - https://kapilkumarcareer1-ux.github.io/portfolio/
+💼 LinkedIn: https://www.linkedin.com/in/kapil-kumar-205538411
 
-LinkedIn: Add Your LinkedIn Profile Link - https://www.linkedin.com/in/kapil-kumar-205538411 
+🐙 GitHub: https://github.com/kapilkumarcareer1-ux
+
+---
+
+## Project Status
+
+✅ Completed
+
+---
+
+### If you found this project useful, please give it a ⭐ on GitHub.
